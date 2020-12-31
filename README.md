@@ -40,11 +40,11 @@
 L'objectif de ce projet était principalement d'apréhender javascript pour la première fois.
 J'ai donc décidé d'utiliser ce langage pour créer un menu "hamburger" avec une animation.
 
-Le design n'est pas 100% responsive. Il a été développé pour des écrans :
+Le design n'est (volontairement) pas 100% responsive. Il a été développé pour des écrans :
 * 414 * 736 (>iphone 6)
 * 1440 * 1024
 
-Je me suis donc confronter à un problème : Il est "impossible" d'animer un "display: none;".
+Je me suis donc confronter à un problème : Il est "impossible" de faire une animation à partir d'un "display: none;".
 
 Deux solutions s'offraient donc à moi :
 * Cacher mon menu avec les propriétés css opacity et hidden
