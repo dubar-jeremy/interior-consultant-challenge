@@ -28,9 +28,6 @@
 
 - [Overview](#overview)
   - [Built With](#built-with)
-- [Features](#features)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
 
 <!-- OVERVIEW -->
 
@@ -40,37 +37,26 @@
 ![screenshot](https://github.com/dubar-jeremy/interior-consultant-challenge/blob/main/mobile2.png)
 ![screenshot](https://github.com/dubar-jeremy/interior-consultant-challenge/blob/main/desktop.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+L'objectif de ce projet était principalement d'apréhender javascript pour la première fois.
+J'ai donc décidé d'utiliser ce langage pour créer un menu "hamburger" avec une animation.
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+Le design n'est pas 100% responsive. Il a été développé pour des écrans :
+* 414 * 736 (>iphone 6)
+* 1440 * 1024
+
+Je me suis donc confronter à un problème : Il est "impossible" d'animer un "display: none;".
+
+Deux solutions s'offraient donc à moi :
+* Cacher mon menu avec les propriétés css opacity et hidden
+* Trouver une alternative. [disponible ici](https://www.impressivewebs.com/animate-display-block-none/).
+
+
+J'ai opté pour l'alternative pour le plaisir d'essayer quelque chose de peu commun. 
+De plus cacher un élément ne le supprime pas du flux et donc il m'aurait été obligé de supprimer chacun des lien lorque l'utilisateur clique sur le menu afin de n'avoir aucune zone cliquable.
 
 ### Built With
 
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
-
-## Features
-
-<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
-
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb) was to build an application to complete the given user stories.
-
-## Acknowledgements
-
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
-
-- [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
-
-## Contact
-
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- [HTML](https://developer.mozilla.org/fr/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/fr/docs/Web/CSS)
+- [Javascript](https://developer.mozilla.org/fr/docs/Web/JavaScript)
