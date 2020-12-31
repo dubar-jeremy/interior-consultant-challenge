@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background-color: #181719;
+    --main-color: #ffffff;
+    --second-color: #828282;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--main-color);
+}
+
+a {
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+.box {
+    transition: all 1s linear;
+    display: block;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.menu-left {
+    margin: 0.5em;
+    padding: 0.5em;
+    border: 0.1em solid var(--main-color);
+}
+
+.menu-right-event-click {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 4;
+    width: 100%;
+    height: 80vh;
+    margin: 0 auto;
+    transition: .8s;
+}
+
+/*.menu-right-event-click {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}*/
+.hidden {
+    display: none;
+}
+
+.visuallyhidden {
+    opacity: 0;
+}
+
+.hide-block {
+    display: none;
+}
+
+.toggle {
+    margin: 0.5em;
+    transition: .5s;
+    display:block;
+}
+
+.active {
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+
+h1 {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    margin-bottom: 1em;
+}
+
+.block-left p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin-bottom: 1em;
+
+}
+
+.block-left a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.block-right {
+    width: 100%;
+}
+
+.img-interior {
+    margin-top: 1em;
+    width: 100%;
+    height: auto;
+}
+
+.rectangle {
+    background: var(--background-color);
+    width: 75%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 3em;
+}
+
+.rectangle-top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.profil-name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.profil-photo {
+    width: 25%;
+    clip-path:ellipse(50% 50%);
+}
+
+.profil-work {
+    width: 25%;
+    text-align: center;
+}
+
+footer {
+    width: 80%;
+    margin: 0 auto;
+    border-top: 0.1em solid #A9A9A9;
+}
+
+footer p {
+    text-align: center;
+    line-height: 3;
+}
