@@ -37,22 +37,19 @@
 ![screenshot](https://github.com/dubar-jeremy/interior-consultant-challenge/blob/main/mobile2.png)
 ![screenshot](https://github.com/dubar-jeremy/interior-consultant-challenge/blob/main/desktop.png)
 
-L'objectif de ce projet était principalement d'apréhender javascript pour la première fois.
-J'ai donc décidé d'utiliser ce langage pour créer un menu "hamburger" avec une animation.
-
-Le design n'est (volontairement) pas 100% responsive. Il a été développé pour des écrans :
+L'objectif de ce projet était principalement d'apréhender javascript pour la première fois avec la création d'un menu "hamburger".
+C'est pourquoi j'ai décidé de ne développer le site que pour deux types d'écran afin de me concentrer sur la partie JS:
+Version disponible : 
 * 414 * 736 (>iphone 6)
 * 1440 * 1024
 
-Je me suis donc confronter à un problème : Il est "impossible" de faire une animation à partir d'un "display: none;".
+Rapidement je me suis confronté à un problème : Il est "impossible" de faire une animation à partir d'un "display: none;".
 
 Deux solutions s'offraient donc à moi :
 * Cacher mon menu avec les propriétés css opacity et hidden
-* Trouver une alternative. [disponible ici](https://www.impressivewebs.com/animate-display-block-none/).
-
-
-J'ai opté pour l'alternative pour le plaisir d'essayer quelque chose de peu commun. 
-De plus cacher un élément ne le supprime pas du flux et donc il m'aurait été obligé de supprimer chacun des lien lorque l'utilisateur clique sur le menu afin de n'avoir aucune zone cliquable.
+* Chercher une alternative pour contrer cette limitation. 
+  
+J'ai donc décidé de suivre un tutoriel ([disponible ici](https://www.impressivewebs.com/animate-display-block-none/)) pour contrer cette limitation et m'amuser un peu :).
 
 ### Built With
 
