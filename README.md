@@ -42,14 +42,18 @@ C'est pourquoi j'ai décidé de ne développer le site que pour deux types d'éc
 Version disponible : 
 * 414 * 736 (>iphone 6)
 * 1440 * 1024
+(La qualité du code css est aussi largement améliorable)
 
-Rapidement je me suis confronté à un problème : Il est "impossible" de faire une animation à partir d'un "display: none;".
+
+
+Sur ce projet un problème est rapidement: Il est "impossible" de faire une animation (transition) à partir d'un "display: none;".
 
 Deux solutions s'offraient donc à moi :
 * Cacher mon menu avec les propriétés css opacity et hidden
-* Chercher une alternative pour contrer cette limitation. 
+* Chercher une alternative pour contrer cette limitation
   
-J'ai donc décidé de suivre un tutoriel ([disponible ici](https://www.impressivewebs.com/animate-display-block-none/)) pour contrer cette limitation et m'amuser un peu :).
+J'ai donc décidé de suivre un tutoriel ([disponible ici](https://www.impressivewebs.com/animate-display-block-none/)) pour contrer cette limitation et m'amuser un peu :). 
+Ce n'est pas parfait et avec le recul cacher le menu aurait certainement été préférable, mais ce fut un très bon premier exercice en JS.
 
 ### Built With
 
