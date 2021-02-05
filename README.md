@@ -46,7 +46,7 @@ Version disponible :
 
 
 
-Sur ce projet un problème est rapidement: Il est "impossible" de faire une animation (transition) à partir d'un "display: none;".
+Sur ce projet un problème s'est posé rapidement: Il est "impossible" de faire une animation (transition) à partir d'un "display: none;".
 
 Deux solutions s'offraient donc à moi :
 * Cacher mon menu avec les propriétés css opacity et hidden
